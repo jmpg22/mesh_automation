@@ -51,4 +51,8 @@ test('Make a deposit e2e flow', async ({ page }) => {
      await test.step('Step- User enters verification code to confirm deposit', async () => {
         await pages.meshDeposit.verification_deposit_to_confirm(binanceUser.ValidUser.verification_code); 
     });
+    await test.step('Step- User ends session', async () => {
+        await pages.logoutPage.logOut();
+        await expect(page).toHaveURL('/login')
+    });
 });
