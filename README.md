@@ -6,7 +6,7 @@ How to use:
 
 git clone
 
-cd
+Navigate to folder path  
 
 ✅ 2. Install dependencies
 
