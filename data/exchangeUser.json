@@ -1,0 +1,9 @@
+{
+    "ValidUser": {
+        "user": "",
+        "password": "",
+        "verification_code": "",
+        "amount_to_deposit": "",
+        "exchange": ""
+    }
+}

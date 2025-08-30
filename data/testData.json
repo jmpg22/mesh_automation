@@ -1,0 +1,11 @@
+{
+    "ValidUser": {
+        "user": "",
+        "password": ""
+    },
+    "InvalidUser": {
+        "wrong_user": "",
+        "wrong_password": ""
+    },
+    "errorMessage": "Username and password do not match any user in this service"
+}
